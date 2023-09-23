@@ -2,30 +2,29 @@ var pardiv = document.createElement("div");
 pardiv.style.textAlign = "center"
 pardiv.style.paddingTop = "30px"
 
-//this is the input for the date
 var inputdate = document.createElement("input");
 inputdate.setAttribute("type","date");
 inputdate.setAttribute("id","dob");
 inputdate.style.width = "30%"
 inputdate.style.margin = "10px"
-//this is for the button
+
 var button = document.createElement("button");
 button.innerHTML = "Display date"
 button.className = "btn btn-primary"
 button.addEventListener("click",displaydata);
 
-//this is the input for the date
+
 var inputdate = document.createElement("input");
 inputdate.setAttribute("type","date");
 inputdate.setAttribute("id","dob");
 inputdate.style.width = "30%"
 inputdate.style.margin = "10px"
-//this is for the button
+
 var button = document.createElement("button");
 button.innerHTML = "Display date"
 button.className = "btn btn-primary"
 button.addEventListener("click",displaydata);
-//Append it to parent div
+
 pardiv.append(inputdate,button)
 var displaydiv = document.createElement("div");
 displaydiv.id = "displaydata"
